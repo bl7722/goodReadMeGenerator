@@ -1,2 +1,2 @@
 # goodReadMeGenerator
-This is a goodReadMeGenerator
+This is the goodReadMeGenerator
