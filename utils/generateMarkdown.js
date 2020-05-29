@@ -60,32 +60,33 @@ inquirer
      const data= `
 # ${response.title}
      
+## ##Badges
+${response.badge}
+
 ## ##Description
 ${response.description}
+
+## ##Table of Contents
+${response.toc}
      
 ## ##Installation
 ${response.install}
+
 ## ##Usage
 ${response.usage}
-     
-## ##Credits
-${response.credits}
      
 ## ##Licenses
 ${response.license}
      
-## ##Guide to Contributing
+## ## Contributing
 ${response.contributing}
      
 ## ##Tests
 ${response.tests}
      
-## ##Badges
-${response.badges}
-     
 ## ##Questions
-     
-### If you have questions, please contact the creator at:
+${response.questions}
+### Send Questions to:
      
 `
   fs.appendFile("GeneratedREADME.md",data,function(err){
@@ -94,7 +95,7 @@ ${response.badges}
     throw err
 }
 })
-//run function to get api info and display it
+
 }).then(function(){
   api.getUser();
 });

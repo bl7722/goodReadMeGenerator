@@ -1,30 +1,31 @@
 
-# 
+# goodReadMeGenerator.
      
+## ##Badges
+12
+
 ## ##Description
+This is the goodReadMeGenerator. The purpose of this generator is to facilitate the creation of future README.md files. 
+
+## ##Table of Contents
 
      
 ## ##Installation
 
-## ##Usage
 
-     
-## ##Credits
-undefined
+## ##Usage
+the creation of future README.md files. 
      
 ## ##Licenses
 
      
-## ##Guide to Contributing
+## ## Contributing
 undefined
      
 ## ##Tests
 
      
-## ##Badges
-undefined
-     
 ## ##Questions
-     
-### If you have questions, please contact the creator at:
+
+### Send Questions to:
      
