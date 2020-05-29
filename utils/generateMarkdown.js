@@ -1,6 +1,6 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
-
+var api= require('./api.js');
 function generateMarkdown() {
 inquirer
   .prompt([
@@ -79,7 +79,7 @@ ${response.usage}
 ${response.license}
      
 ## ## Contributing
-${response.contributing}
+${response.contribute}
      
 ## ##Tests
 ${response.tests}
