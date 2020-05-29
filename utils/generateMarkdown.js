@@ -1,6 +1,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
-const api= require('./api.js');
+
+
 function generateMarkdown() {
 inquirer
   .prompt([
