@@ -1,6 +1,6 @@
-const axios = require('axios');
-const inquirer= require('inquirer')
 const fs= require('fs')
+const inquirer= require('inquirer')
+const axios = require('axios');
 const api = {
   getUser() {
 
@@ -18,7 +18,7 @@ inquirer
 
   axios.get(gitUrl)
     .then(function (response) {
-      // handle success
+
      
 
       fs.appendFile("GeneratedREADME.md", 
