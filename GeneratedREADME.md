@@ -29,5 +29,5 @@ terminal/command prompt
 
 ### Send Questions to:
      
-## ## Email: This user has a private email
+## ## Email: example@email.com
 !["Id Picture"](https://avatars1.githubusercontent.com/u/63977353?v=4)
