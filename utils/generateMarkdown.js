@@ -1,6 +1,6 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
-var api= require('./api.js');
+const api= require('./api.js');
 function generateMarkdown() {
 inquirer
   .prompt([
@@ -58,7 +58,9 @@ inquirer
 
   ]).then(function(response){
      const data= `
-# ${response.title}
+
+## ##Title
+${response.title}
      
 ## ##Badges
 ${response.badge}

@@ -30,7 +30,7 @@ inquirer
           return console.log("Error. Please retry")
       }
         else{
-          return console.log("README Generated Successfully")
+          return console.log("README Generated Successfully!")
       }
       });
     })
