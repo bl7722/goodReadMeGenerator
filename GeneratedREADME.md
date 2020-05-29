@@ -8,25 +8,25 @@ goodReadMeGenerator
 This is the goodReadMeGenerator. The purpose of this generator is to facilitate the creation of future README.md files
 
 ## ##Table of Contents
-N/A
+
      
 ## ##Installation
-N/A
+
 
 ## ##Usage
-to facilitate the creation of future README.md files
+the creation of future Readme.md files
      
 ## ##Licenses
-N/A
+
      
 ## ## Contributing
-Through Github
+
      
 ## ##Tests
-run on command prompt/terminal
+terminal/command prompt
      
 ## ##Questions
-N/A
+
 ### Send Questions to:
      
 ## ## Email: This user has a private email
