@@ -22,12 +22,12 @@ inquirer
      
 
       fs.appendFile("GeneratedREADME.md", 
-`## ## Email: ${response.data.email ? response.data.email : "This user has a private email"}
+`## ## Email: ${response.data.email ? response.data.email : example@email.com}
 !["Id Picture"](${response.data.avatar_url})
 `, 
       function(err){
         if(err){
-          return console.log("Error. Please retry")
+          return console.log("Error. Retry")
       }
         else{
           return console.log("README Generated Successfully!")
